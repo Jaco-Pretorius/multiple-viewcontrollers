@@ -18,6 +18,8 @@
 		D6E6DB5D1721798900DB985A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB5C1721798900DB985A /* Default-568h@2x.png */; };
 		D6E6DB601721798900DB985A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6DB5F1721798900DB985A /* ViewController.m */; };
 		D6E6DB631721798900DB985A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB611721798900DB985A /* ViewController.xib */; };
+		D6E6DB6C17217C7500DB985A /* NavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6DB6A17217C7500DB985A /* NavBarViewController.m */; };
+		D6E6DB6D17217C7500DB985A /* NavBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB6B17217C7500DB985A /* NavBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		D6E6DB5E1721798900DB985A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D6E6DB5F1721798900DB985A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6E6DB621721798900DB985A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D6E6DB6917217C7500DB985A /* NavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarViewController.h; sourceTree = "<group>"; };
+		D6E6DB6A17217C7500DB985A /* NavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarViewController.m; sourceTree = "<group>"; };
+		D6E6DB6B17217C7500DB985A /* NavBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				D6E6DB5E1721798900DB985A /* ViewController.h */,
 				D6E6DB5F1721798900DB985A /* ViewController.m */,
 				D6E6DB611721798900DB985A /* ViewController.xib */,
+				D6E6DB6917217C7500DB985A /* NavBarViewController.h */,
+				D6E6DB6A17217C7500DB985A /* NavBarViewController.m */,
+				D6E6DB6B17217C7500DB985A /* NavBarViewController.xib */,
 				D6E6DB4D1721798900DB985A /* Supporting Files */,
 			);
 			path = MultipleViewControllers;
@@ -163,6 +171,7 @@
 				D6E6DB5B1721798900DB985A /* Default@2x.png in Resources */,
 				D6E6DB5D1721798900DB985A /* Default-568h@2x.png in Resources */,
 				D6E6DB631721798900DB985A /* ViewController.xib in Resources */,
+				D6E6DB6D17217C7500DB985A /* NavBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				D6E6DB531721798900DB985A /* main.m in Sources */,
 				D6E6DB571721798900DB985A /* AppDelegate.m in Sources */,
 				D6E6DB601721798900DB985A /* ViewController.m in Sources */,
+				D6E6DB6C17217C7500DB985A /* NavBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

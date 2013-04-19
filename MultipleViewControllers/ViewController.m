@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "NavBarViewController.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) NavBarViewController *navBarViewController;
 @end
 
 @implementation ViewController
@@ -17,13 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.navBarViewController = [[NavBarViewController alloc] init];
+    self.navBarViewController.view.frame = CGRectMake(0, -75, 320, 75);
+    
+    [self addChildViewController:self.navBarViewController];
+    [self.view addSubview:self.navBarViewController.view];
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)doSomeAction
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"Do some action on main ViewController");
+}
+
+- (IBAction)toggleNavBar:(UIButton *)sender
+{
+    self.navBarViewController.view.frame = CGRectMake(0, 0, 320, 75);
 }
 
 @end
